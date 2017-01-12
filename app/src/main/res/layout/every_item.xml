@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.dell.huadonglistview.everyview.ParentOnTouchChildClickLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#33b5e5"
+    android:clipChildren="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/llContext"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="1dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试文本"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvTestClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="子view点击兼容性测试"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDelete"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#456431">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="删除"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</com.example.dell.huadonglistview.everyview.ParentOnTouchChildClickLinearLayout>
